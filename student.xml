@@ -1,0 +1,20 @@
+<student>
+   <FirstName>Usman</FirstName>
+   <LastName>Shaik</LastName>
+   <dob>02-09-93</dob>
+    <addresses>
+      <address type="current_address"> 
+      <street>Teacherscolony</street>
+      <city>Darsi</city>
+      <state>AP</state>
+      <zip>523247</zip>
+      </address>
+
+      <address type="permanent_address">
+      <street>Teachers colony</street>
+      <city>Darsi</city>
+      <state>AP</state>
+      <zip>523247</zip>
+      </address>
+    </addresses>
+</student>

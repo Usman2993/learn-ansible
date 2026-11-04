@@ -1,0 +1,32 @@
+{
+
+    "FirstName": "Usman",
+    "LastName": "Shaik",
+    "dob": "02-09-93",
+    "addressess": [
+        {
+            "type": "currectaddress",
+            "DoorNo": "1-2-3",
+            "street": "Teachers Colony",
+            "city": "Darsi",
+            "state": "AP",
+            "zip": "523247"
+        },
+        {
+            "type": "Permanentaddress",
+            "DoorNo": "1-2-3",
+            "street": "Teachers Colony",
+            "city": "Darsi",
+            "state": "AP",
+            "zip": "523247"
+        }
+    ],
+
+        "Skills": {
+            "OS": "Linux",
+            "IDE": "VS Code",
+            "CM": "Ansible"
+
+        }
+
+}

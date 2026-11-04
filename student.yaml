@@ -1,0 +1,23 @@
+- First_name: "Usman"
+  Last_name: "Shaik"
+  dob: 02-09-93
+
+# - is for List
+
+  addressess:
+- type: "Current address"
+  DoorNo: "1-2-3"
+  street: "Teachers Colony"
+  city: "Darsi"
+  state: "AP"
+  zip: "523247"
+- type: "Permanent address"
+  DoorNo: "1-2-3"
+  street: "Teachers Colony"
+  city: "Darsi"
+  state: "AP"
+  zip: "523247"
+  skills:
+    OS: "Linux"
+    IDE: "VS Code"
+    CM: "Ansible"
