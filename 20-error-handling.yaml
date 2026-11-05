@@ -1,0 +1,13 @@
+- name: crecate user
+  hosts: local
+  connection: local
+  become: true
+  tasks:
+  - name: check roboshop user exist or not
+    command: id roboshop # linux command when there is no module exist
+    register: user_output
+
+  - name: print the output
+    debug:
+      msg: "{{ user_output }}"  
+    
