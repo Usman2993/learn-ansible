@@ -3,6 +3,11 @@
   connection: local
   vars:
     topics: Linus, Shell, Ansible, Terraform, Docker, Kubernetes
+    names:
+      - Usman
+      - Shaik
+      - DevOps
+      - Engineer
   tasks:
   - name: print the name
     debug:
@@ -10,3 +15,7 @@
   - name: convert string to list
     debug:
       msg: "Topics are:{{ topics | split(',') | trim }}"    
+
+  - name: convert list to string
+    debug:
+      msg: "Full Name:{{ names | join(',') }}"    
