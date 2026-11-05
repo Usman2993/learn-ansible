@@ -1,0 +1,11 @@
+- name: demo on loops
+  hosts: local
+  connection: local
+  tasks:
+  - name: print the names
+    debug:
+      msg: "Hello {{ item }}..!" # item is a reserved keyword in ansible which is used to access the current item in the loop
+    loop:
+      - Usman
+      - Ram
+      - Rahul
