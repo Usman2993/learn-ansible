@@ -4,7 +4,12 @@
   vars:
     given_number: 10
   tasks:
-  - name: check if the number is even or odd
+  - name: is even
     debug:
-      msg: "The given number {{ given_number }} is {% if given_number % 2 == 0 %} even {% else %} odd {% endif %}"
-    when: given_number % 2 == 0 
+      msg: "The given number {{ given_number }} is even"
+    when: given_number % 2 == 0 # expression
+
+  - name: is odd
+    debug:
+      msg: "The given number {{ given_number }} is odd"
+    when: given_number % 2 != 0 # expression  
