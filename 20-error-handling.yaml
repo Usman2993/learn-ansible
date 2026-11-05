@@ -6,6 +6,7 @@
   - name: check roboshop user exist or not
     command: id roboshop # linux command when there is no module exist
     register: user_output
+    ignore_errors: true
 
   - name: print the output
     debug:
