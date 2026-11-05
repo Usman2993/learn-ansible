@@ -23,3 +23,4 @@
         is live_sessions:{{ is_live_sessions }} : {{ is_live_sessions | type_debug }}
         topics:{{ topics }} : {{ topics | type_debug }}
         more_details:{{ more_details }} : {{ more_details | type_debug }}
+        duration_in_months:{{ more_details.Exact_duration_in_months }} : {{ more_details.Exact_duration_in_months | type_debug }}
