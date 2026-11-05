@@ -11,4 +11,10 @@
   - name: print the output
     debug:
       msg: "{{ user_output }}"  
+
+  - name : create roboshop user
+    user:
+      name: roboshop
+      state: present
+    when: user_output.rc != 0    
     
