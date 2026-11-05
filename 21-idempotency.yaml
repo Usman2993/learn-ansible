@@ -1,0 +1,10 @@
+- name: crecate system user
+  hosts: local
+  connection: local
+  become: true
+  tasks:
+  - name: crecate user
+    user:
+      name: roboshop # user add roboshop
+      
+    
