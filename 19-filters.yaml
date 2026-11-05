@@ -22,5 +22,5 @@
       msg: "Full Name:{{ names | join(' ') }}"   
   
   - name: convert string to lower case
-      debug:
-        msg: "Topic in lower case:{{ topic | lower }}"     
+    debug:
+      msg: "Topic in lower case:{{ topic | lower }}"     
