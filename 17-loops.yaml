@@ -7,7 +7,7 @@
       - nginx
       - mysql
       - git
-      - net-loos
+      - net-tools
       - htop
 
   tasks:
