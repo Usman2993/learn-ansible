@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: Install nginx in RedHat OS
-    debug:
+    dnf:
       state: present
       name: nginx
     when: ansible_facts.os_family == "RedHat"
