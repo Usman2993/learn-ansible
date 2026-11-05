@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    topics: "Linus, Shell, Ansible, Terraform, Docker, Kubernetes"
+    topics: Linus, Shell, Ansible, Terraform, Docker, Kubernetes
   tasks:
   - name: print the name
     debug:
