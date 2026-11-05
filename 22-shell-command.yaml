@@ -12,4 +12,11 @@
     debug:
       msg: "{{ ec2_user_output }}"  
 
+  - name: get the files from /etc/passwd
+    command: ls -la > /tmp/files.txt
+    register: files_output
+
+  - name: print the information
+    debug:
+      msg: "{{ files_output }}"  
   
